@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic website of Stuart Mitchell, mathematics PhD student at the Australian National University.">
+  <meta name="author" content="Stuart Mitchell">
+  <title>Stuart Mitchell</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- MathJax: write $...$ for inline maths anywhere on the page -->
+  <script>
+    window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], processEscapes: true } };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="row page">
+
+      <!-- Sidebar (hidden on phones) -->
+      <div class="hidden-xs col-sm-3 col-md-2" id="sidebar" role="navigation">
+        <hr>
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#theses">Theses</a></li>
+          <!-- <li><a href="#teaching">Teaching</a></li> -->
+          <li><a href="cv.pdf">CV</a></li>
+        </ul>
+      </div>
+
+      <div class="col-xs-12 col-sm-9 col-md-9">
+
+        <!-- Header -->
+        <div class="row header">
+          <img src="photo.jpg" alt="Stuart Mitchell" class="pull-left profile-photo"
+               onerror="this.style.display='none'">
+          <h1>Stuart Mitchell</h1>
+          <p class="lead">
+            PhD student in mathematics<br>
+            <!-- Email is assembled by script so no address appears in the page source. -->
+            <span id="email" data-u="llehctim.trauts" data-d="ua.ude.una">
+              stuart.mitchell [at] anu [dot] edu [dot] au
+            </span><br>
+            <a href="https://arxiv.org/abs/1610.04571" class="icon" title="arXiv">
+              <i class="fa fa-file-text-o fa-lg"></i>
+            </a>
+            <a href="https://scholar.google.com/citations?user=srNoE7YAAAAJ&amp;hl=en" class="icon" title="Google Scholar">
+              <i class="fa fa-graduation-cap fa-lg"></i>
+            </a>
+            <a href="https://github.com/stuartamitchell" class="icon" title="GitHub">
+              <i class="fa fa-github fa-lg"></i>
+            </a>
+          </p>
+        </div>
+
+        <hr>
+
+        <!-- About -->
+        <div class="row">
+          <p>
+            I am a PhD student in the
+            <a href="https://maths.anu.edu.au">Mathematical Sciences Institute</a>
+            at the <a href="https://www.anu.edu.au">Australian National University</a>.
+            My research interests include:
+          </p>
+          <ul>
+            <li><b>Categorification:</b> Heisenberg categories and their generalisations,
+              diagrammatic (string-diagram) calculi, and what their centres and
+              Grothendieck rings tell us.</li>
+            <li><b>Representation theory:</b> degenerate affine Hecke algebras, Fock space
+              representations, and the combinatorics that comes with them.</li>
+            <li><b>Algebraic combinatorics:</b> shifted symmetric functions and their
+              connections to free probability and asymptotic representation theory.</li>
+          </ul>
+          <p>
+            My current work builds on my earlier paper with Henry Kvinge and
+            Anthony Licata, which connected Khovanov's Heisenberg category with
+            free probability and shifted symmetric functions.
+          </p>
+          <p>
+            Alongside research I have taught secondary mathematics, and I am interested
+            in university-level teaching.
+          </p>
+          <p>
+            <strong><a href="cv.pdf">Curriculum Vitae</a></strong>
+          </p>
+        </div>
+
+        <!-- Publications -->
+        <div class="row">
+          <h2 id="publications">Publications + Preprints</h2>
+          <hr>
+
+          <!-- To add a paper, copy one <div class="pub"> block and edit it. -->
+
+          <h3>2019</h3>
+
+          <div class="pub">
+            <strong>Khovanov's Heisenberg category, moments in free probability, and shifted symmetric functions</strong><br>
+            Henry Kvinge, Anthony M. Licata, <strong>Stuart Mitchell</strong><br>
+            <i>Algebraic Combinatorics</i> 2(1) (2019), 49&ndash;74
+            <div class="btn-group btn-group-xs">
+              <a href="https://doi.org/10.5802/alco.32" class="btn btn-default">Journal</a>
+              <a href="https://arxiv.org/abs/1610.04571" class="btn btn-default">arXiv</a>
+            </div>
+          </div>
+
+          <h3>2017</h3>
+
+          <div class="pub">
+            <strong>Khovanov's Heisenberg category, moments in free probability, and shifted symmetric functions</strong> (extended abstract)<br>
+            Henry Kvinge, Anthony M. Licata, <strong>Stuart Mitchell</strong><br>
+            <i>S&eacute;minaire Lotharingien de Combinatoire</i> 78B (2017), Article 63 &mdash; FPSAC 2017
+            <div class="btn-group btn-group-xs">
+              <a href="https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2017/63%20Kvinge%20Licata%20Mitchell.html" class="btn btn-default">Paper</a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Theses -->
+        <div class="row">
+          <h2 id="theses">Theses</h2>
+          <hr>
+
+          <div class="pub">
+            <strong>A Graphical Calculus for Shifted Symmetric Functions</strong><br>
+            Master's thesis, Australian National University, 2017
+            <div class="btn-group btn-group-xs">
+              <a href="https://openresearch-repository.anu.edu.au/items/0767f9c3-2503-4c50-babf-576290f478cc" class="btn btn-default">ANU Open Research</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Teaching: uncomment this block (and the sidebar link) when you have something to list.
+        <div class="row">
+          <h2 id="teaching">Teaching</h2>
+          <hr>
+          <div class="pub">
+            <strong>MATH1115 Advanced Mathematics and Applications 1</strong><br>
+            Tutor, ANU, Semester 1 2027
+          </div>
+        </div>
+        -->
+
+      </div>
+    </div>
+
+    <hr>
+    <footer>Last updated October 2026</footer>
+  </div>
+  <script>
+    // Build a clickable email link at load time. Address parts are stored reversed,
+    // and no at-sign or mail link appears in the HTML, so harvesters reading raw source get nothing usable.
+    (function () {
+      var el = document.getElementById('email');
+      if (!el) return;
+      var rev = function (t) { return t.split('').reverse().join(''); };
+      var addr = rev(el.getAttribute('data-u')) + String.fromCharCode(64) + rev(el.getAttribute('data-d'));
+      var a = document.createElement('a');
+      a.href = 'mail' + 'to:' + addr;
+      a.textContent = addr;
+      el.replaceChildren(a);
+    })();
+  </script>
+</body>
+</html>

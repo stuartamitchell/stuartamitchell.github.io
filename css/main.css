@@ -1,0 +1,55 @@
+/* Layout and look modelled on hkvinge.github.io */
+
+body {
+  font-size: 16px;
+  line-height: 1.55;
+  color: #333;
+  background: #fff;
+}
+
+.page { padding: 20px; }
+
+/* Sidebar sits level with the bio and follows you down the page */
+#sidebar {
+  margin-top: 180px;
+  position: sticky;
+  top: 20px;
+}
+
+.header h1 { margin-top: 40px; }
+
+.profile-photo {
+  margin: 20px 20px 20px 0;
+  width: 140px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.lead { margin-bottom: 0; }
+
+.icon {
+  color: #555;
+  margin-right: 10px;
+}
+.icon:hover { color: #000; text-decoration: none; }
+
+h2 { margin-top: 40px; }
+h3 { margin-top: 28px; }
+
+/* One publication entry */
+.pub { margin-bottom: 18px; }
+.pub .btn-group { display: block; margin-top: 4px; }
+.pub .btn-group .btn { float: none; margin-right: 4px; border-radius: 3px; }
+
+footer {
+  color: #999;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .page { padding: 16px 0; }
+  .header h1 { margin-top: 30px; font-size: 30px; }
+  .profile-photo { width: 105px; height: 120px; }
+}
