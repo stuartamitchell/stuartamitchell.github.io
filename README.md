@@ -9,7 +9,7 @@ index.html      the whole page
 css/main.css    styling
 photo.jpg       headshot, 420×480, shown as an oval beside the name
 cv.pdf          the public (website) version of the CV
-papers/         (optional) PDFs you host yourself; none needed at the moment
+papers/         PDFs hosted on the site (currently the MPhil thesis)
 ```
 
 
