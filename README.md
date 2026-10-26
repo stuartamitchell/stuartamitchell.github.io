@@ -29,6 +29,11 @@ for harvesters to find.
 **To change the address:** reverse the part before the `@` into `data-u` and the part after it
 into `data-d` (e.g. in a terminal: `echo stuart.mitchell | rev`), and update the fallback text.
 
+`cv.pdf` is protected the same way: it shows `stuart.mitchell [at] anu [dot] edu [dot] au` as
+plain text, with no clickable mail link, so the PDF contains no machine-readable address. In
+`Stuart_Mitchell_CV_web.tex` this is the `\extrainfo{...}` line in place of `\email{...}`; keep
+it that way when you edit the CV.
+
 ## The CV
 
 There are two versions of the CV, built from separate LaTeX files with the `moderncv` class:
